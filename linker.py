@@ -7,5 +7,5 @@ url.close()
 
 soup = BeautifulSoup(content)
 find = soup.find_all("a")
-for links in soup.find_all('a'):
-    print (links.get("href"))
+for linker in soup.find_all('a'):
+    print (linker.get("href"))
